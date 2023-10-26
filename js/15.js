@@ -41,4 +41,10 @@ resultado = carrito.reduce(function(total, producto) {
 
 }, 0);
 
+
+//Filttler 
+resultado = carrito.filter(function(producto){
+    return producto.Precio > 400 //!== esto se usa para negar una condicion (return)
+});
+
 console.log(resultado)
