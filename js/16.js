@@ -9,12 +9,12 @@ sumar()
 
 
 //Expresion de la funcion
-const sumar2 = function(){
-    console.log(3+3);
+const sumar2 = function(a,b){
+    console.log(a+b);
 
 }
 
-sumar2();
+sumar2(2,5);
 
 //IIFE
 (function(){
