@@ -1,9 +1,9 @@
-function sumar (numero1, numero2) { //numero 1 y 2 son parametros
+function sumar (numero1 = 0, numero2 = 0) { //numero 1 y 2 son parametros
     console.log(numero1 * numero2);
 
 }
 
-sumar(10, 10); //Argumentos o numeros reales
+sumar(10, 10); //Argumentos o valores reales
 sumar(10, 5); 
 sumar(10, 11); 
 sumar(10, 2); 
