@@ -13,7 +13,7 @@
 //    }
 //}
 
-//While Loop
+
 
 const carrito = [
     { nombre: 'Monitor 20 Pulgada', Precio: 500},
@@ -29,8 +29,21 @@ const carrito = [
 for(let i = 0; i < carrito.length; i++ ) {
         console.log( carrito[i] );
 }
+//While Loop La condicion se debe cumplir para que se ejecute
+//let i = 20; //Indice
+//
+//while(i < 20){ //Condicion
+//    console.log('desde el while loop');
+//
+//    i++; //Incremeton
+//}
 
+//Do While Loop Se ejecuta una vez aunque no se cumpla
 
+let i = 0;
 
+do {
+console.log(i)
 
-//Do While Loop
+i++;
+}while (i < 10);
